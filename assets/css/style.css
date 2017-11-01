@@ -1,0 +1,13 @@
+body{
+    direction: rtl;
+    font-family: Vazir;
+    background: #fff;
+}
+.header{
+    height: 400px;
+    background-color:blue;
+}
+.menu{
+    height: 95px;
+    background-color: red;
+}
