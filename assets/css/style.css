@@ -99,6 +99,7 @@ a:hover {
   background-position: center;
   color: #fff;
   height: 751px;
+  
 }
 .header a {
   color: #fff;
@@ -180,20 +181,47 @@ a:hover {
   background-image: url("../image/menu-calendar.png");
 }
 .body-content {
-  margin-top: 6em;
+  margin-top: 3em;
 }
 .content-title {
   color: #00baee;
+}
+.content-body{
+  line-height:30px;
+  text-align:justify;
 }
 .content-slogan {
   text-align: left;
 }
 .well {
-  background: #e4e4e4;
+  background: #fff;
   border: 0px;
   border-radius: 0px;
   -webkit-box-shadow: none;
   box-shadow: none;
+}
+.content-parallax{
+  text-align: center;
+  color:#fff;
+  vertical-align: middle;
+  line-height: 230px; 
+}
+.parallax {
+  position: relative;
+  margin-bottom: 0px;
+  background-image: url("../image/parallel2.jpg");
+  background-color: #000;
+  height: 250px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+} 
+@media only screen and (max-device-width: 1024px) {
+  .parallax {
+      background-attachment: scroll;
+  }
 }
 .footer-top {
   margin-top: 3em;
