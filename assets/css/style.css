@@ -11,3 +11,7 @@ body{
     height: 95px;
     background-color: red;
 }
+.lnr-checkmark-circle{
+    color: white;
+    font-size: 40px;
+}
