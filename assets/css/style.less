@@ -1,0 +1,223 @@
+/*Color Pallete*/
+@blue:#00baee;
+@white:#fff;
+@black:#000;
+@gray:#e4e4e4;
+/*Size Sets*/
+@low-space:1em;
+@medium-space:3em;
+@high-space:6em;
+@navbar-height:50px;
+/*Paths*/
+@images:"../image/";
+/* !Responsive Fix */
+@media (min-width: 768px){
+    .navbar-header,.navbar-nav>li,.navbar-nav,
+    .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9 {
+        .right;
+    }
+    .navbar {
+        border-radius: 0px;
+    }
+}
+@media (min-width: 992px){
+    .navbar-header,.navbar-nav>li,.navbar-nav,
+    .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9 {
+        .right;
+    }
+    .navbar {
+        border-radius: 0px;
+    }
+}
+@media (min-width: 1200px){
+    .navbar-header,.navbar-nav>li,.navbar-nav,
+    .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9 {
+        .right;
+    }
+    .navbar {
+        border-radius: 0px;
+    }
+}
+/*General*/
+body{
+    direction: rtl;
+    font-family: Vazir;
+}
+.left{
+    float:left;
+}
+.right{
+    float:right;
+}
+a:hover{
+    text-decoration: none;
+}
+.nav>li>a:hover {
+    background-color: transparent;
+}
+.table-display{
+    display: table;
+}
+/*Header Section*/
+.header{
+    background: url("@{images}image-header.png");
+    background-size: cover;
+    background-position: center;
+    color: @white;
+    height: 751px;
+}
+.header a{
+    color:@white;
+}
+/* * Header Top * */
+
+.header-top>.container-fluid{
+    padding-top: @low-space;
+    padding-bottom: @low-space;
+}
+.header-top-date{
+    .right;
+}
+.header-top-left{
+    .left;
+}
+.user-menu{
+    margin-left: @low-space;
+}
+.social-networks i{
+    padding-right: 0.2em;
+}
+/* * Header * */
+.navbar{
+    background-color: transparent;
+    border-color: transparent;
+    margin-top: @low-space;
+}
+.navbar-brand{
+    padding: 0;
+    .right;
+}
+.navbar-brand img{
+    height: 100%;
+}
+.navbar-nav>li>a {
+    color:@white !important;
+}
+.header-phone{
+    height:@navbar-height;
+    display: table-cell;
+    vertical-align: middle;
+}
+.phone-icon{
+    background: url("@{images}phone.svg");
+    background-size: cover;
+    width: 40px;
+    height: 40px;
+    margin-left: @low-space/2;
+}
+.phone-text{
+    display: inline-block;
+}
+.phone-text-head{
+    color:@blue;
+}
+/* Body Section */
+.body-menu-icon{
+    height: 6em;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.body-menu-text{
+    font-size: 1em;
+    margin-top: @low-space;
+    text-align: center;
+    color:@black;
+}
+
+.phone-menu{
+    background-image: url("@{images}menu-phone.png");
+}
+.profile-menu{
+    background-image: url("@{images}menu-profile.png");
+}
+.ruler-menu{
+    background-image: url("@{images}menu-ruler.png");
+}
+.calendar-menu{
+    background-image: url("@{images}menu-calendar.png");
+}
+.body-content{
+    margin-top: @high-space;
+}
+.content-title{
+    color:@blue;
+}
+.content-slogan{
+    text-align: left;
+}
+.well{
+    background: @gray;
+    border: 0px;
+    border-radius: 0px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+.footer-top{
+    margin-top: @medium-space;
+    margin-bottom: 0;
+    background:@blue;
+}
+.nav>li>a:hover {
+    background-color: transparent;
+}
+.footer-top .table-display{
+    margin: 0 auto;
+}
+.footer-top ul{
+    padding: 0;
+}
+.footer-top ul>li>a{
+    color:@black !important;
+}
+.footer{
+    background: lighten(@black,20);
+}
+.footer>.container{
+    padding-top:@medium-space;
+    max-width: 900px;
+    text-align: center;
+}
+.contact .titles{
+    color:@white;
+    font-size: 14pt;
+}
+.contact a,.contact p,.contact-icons{
+    color:darken(@gray,15);
+}
+.contact-icons{
+    font-size: 35pt;
+}
+.footer{
+    background: url("@{images}footer.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.footer-logo,.footer-copyright{
+    margin-top: @medium-space;
+    text-align: center;
+}
+.footer-copyright{
+    margin-top: @low-space;
+    color:white;
+}
+.footer-copyright p{
+    margin-bottom: 0;
+    padding-bottom: 10px;
+}
+.footer-top{
+    min-height: 40px;
+}
+.footer-top .nav>li>a {
+    padding: 8px 8px;
+}
