@@ -29,6 +29,11 @@
         border-radius: 0px;
     }
 }
+@media only screen and (max-device-width: 1024px) {
+    .parallax {
+        background-attachment: scroll;
+    }
+}
 @media (min-width: 1200px){
     .navbar-header,.navbar-nav>li,.navbar-nav,
     .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9 {
@@ -115,8 +120,8 @@ a:hover{
 .phone-icon{
     background: url("@{images}phone.svg");
     background-size: cover;
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     margin-left: @low-space/2;
 }
 .phone-text{
@@ -151,8 +156,12 @@ a:hover{
 .calendar-menu{
     background-image: url("@{images}menu-calendar.png");
 }
+.content-body{
+    line-height:30px;
+    text-align:justify;
+}
 .body-content{
-    margin-top: @high-space;
+    margin-top: @medium-space;
 }
 .content-title{
     color:@blue;
@@ -161,12 +170,62 @@ a:hover{
     text-align: left;
 }
 .well{
-    background: @gray;
+    background: @white;
     border: 0px;
     border-radius: 0px;
     -webkit-box-shadow: none;
     box-shadow: none;
 }
+/* Slogan Parallax */
+.content-parallax{
+    text-align: center;
+    color:#fff;
+    vertical-align: middle;
+    line-height: 230px; 
+  } 
+  .parallax {
+    position: relative;
+    margin-bottom: 0px;
+    background-image: url("../image/parallel2.jpg");
+    background-color: #000;
+    height: 250px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+  } 
+  /* Our Team Section */
+  .team-title{
+    text-align: center;
+    margin: @low-space 0;
+    font-size: 18pt;
+    color: @blue;
+
+  }
+  .team-image-container{
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: auto;
+    border: 4px solid @white;
+    box-shadow: 0 0 0 1px @blue;
+  }
+  .team-descryption{
+    margin-top: @low-space;
+    text-align: center;
+  }
+  .team-member-name{
+      font-weight: bold;
+  }
+  .team-members{
+      padding: @low-space 0;
+  }
+  .team-memeber-title{
+font-size:13px;
+  }
+  /* Footer Section */
 .footer-top{
     margin-top: @medium-space;
     margin-bottom: 0;
@@ -213,7 +272,7 @@ a:hover{
 }
 .footer-copyright{
     margin-top: @low-space;
-    color:white;
+    color:@white;
 }
 .footer-copyright p{
     margin-bottom: 0;

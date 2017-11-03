@@ -46,6 +46,11 @@
     border-radius: 0px;
   }
 }
+@media only screen and (max-device-width: 1024px) {
+  .parallax {
+    background-attachment: scroll;
+  }
+}
 @media (min-width: 1200px) {
   .navbar-header,
   .navbar-nav > li,
@@ -99,7 +104,6 @@ a:hover {
   background-position: center;
   color: #fff;
   height: 751px;
-  
 }
 .header a {
   color: #fff;
@@ -145,8 +149,8 @@ a:hover {
 .phone-icon {
   background: url("../image/phone.svg");
   background-size: cover;
-  width: 40px;
-  height: 40px;
+  width: 30px;
+  height: 30px;
   margin-left: 0.5em;
 }
 .phone-text {
@@ -180,15 +184,15 @@ a:hover {
 .calendar-menu {
   background-image: url("../image/menu-calendar.png");
 }
+.content-body {
+  line-height: 30px;
+  text-align: justify;
+}
 .body-content {
   margin-top: 3em;
 }
 .content-title {
   color: #00baee;
-}
-.content-body{
-  line-height:30px;
-  text-align:justify;
 }
 .content-slogan {
   text-align: left;
@@ -200,11 +204,12 @@ a:hover {
   -webkit-box-shadow: none;
   box-shadow: none;
 }
-.content-parallax{
+/* Slogan Parallax */
+.content-parallax {
   text-align: center;
-  color:#fff;
+  color: #fff;
   vertical-align: middle;
-  line-height: 230px; 
+  line-height: 230px;
 }
 .parallax {
   position: relative;
@@ -216,13 +221,37 @@ a:hover {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-
-} 
-@media only screen and (max-device-width: 1024px) {
-  .parallax {
-      background-attachment: scroll;
-  }
 }
+/* Our Team Section */
+.team-title {
+  text-align: center;
+  margin: 1em 0;
+  font-size: 18pt;
+  color: #00baee;
+}
+.team-image-container {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: auto;
+  border: 4px solid #fff;
+  box-shadow: 0 0 0 1px #00baee;
+}
+.team-descryption {
+  margin-top: 1em;
+  text-align: center;
+}
+.team-member-name {
+  font-weight: bold;
+}
+.team-members {
+  padding: 1em 0;
+}
+.team-memeber-title{
+  font-size:13px;
+    }
+/* Footer Section */
 .footer-top {
   margin-top: 3em;
   margin-bottom: 0;
@@ -272,7 +301,7 @@ a:hover {
 }
 .footer-copyright {
   margin-top: 1em;
-  color: white;
+  color: #fff;
 }
 .footer-copyright p {
   margin-bottom: 0;
