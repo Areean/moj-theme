@@ -248,6 +248,9 @@ a:hover {
 .team-members {
   padding: 1em 0;
 }
+.team-memeber-title{
+  font-size:13px;
+    }
 /* Footer Section */
 .footer-top {
   margin-top: 3em;
