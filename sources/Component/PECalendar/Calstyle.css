@@ -1,0 +1,23 @@
+/* CSS Document */
+
+	<STYLE>
+	BODY { FONT-SIZE: 11px; FONT-FAMILY: Tahoma, Arial, Helvetica, sans-serif }
+	.dpDiv { }
+	.dpTable { BORDER-RIGHT:#0443d2  1px solid; BORDER-TOP: #0443d2 1px solid; FONT-SIZE: 11px; BORDER-LEFT: #0443d2 1px solid; COLOR:#000000; BORDER-BOTTOM: #0443d2 1px solid; FONT-FAMILY: Tahoma, Arial, Helvetica, sans-serif; BACKGROUND-COLOR:#bcd1f2 ; TEXT-ALIGN: center }
+	.dpTR { }
+	.dpTitleTR { BACKGROUND-COLOR}
+	.dpHolidayTD{ BORDER-RIGHT: #bcd1f2 1px solid; BORDER-TOP:#bcd1f2 1px solid; BORDER-LEFT: #bcd1f2 1px solid; CURSOR: pointer; BORDER-BOTTOM: #bcd1f2 1px solid; BACKGROUND-COLOR:#dfe9ff;width:20; }
+	.dpTodayTD{ BORDER-RIGHT:#f2f5ff 1px solid; BORDER-TOP:#f2f5ff 1px solid; BORDER-LEFT: #f2f5ff 1px solid; CURSOR: pointer; BORDER-BOTTOM:#f2f5ff  1px solid; BACKGROUND-COLOR:#cbd8f5 }
+	.dpDayTR { }
+	.dpTodayButtonTR { }
+	.dpTD { CURSOR: pointer 1px solid;width:20; BACKGROUND-COLOR:#e2ebff;}
+	.dpDayHighlightTD { BORDER-RIGHT: #96b4e0 1px solid; BORDER-TOP: #96b4e0 1px solid; BORDER-LEFT:#96b4e0 1px solid; CURSOR: pointer; BORDER-BOTTOM:#96b4e0  1px solid; BACKGROUND-COLOR:#f2f5ff; } 
+	.dpTitleTD {  BACKGROUND-COLOR:#bcd1f2}
+	.dpButtonTD { PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: normal; FONT-SIZE: 10px; BACKGROUND:#cddcf2 ; PADDING-BOTTOM: 0px; COLOR: #000000; PADDING-TOP: 0px;  }
+	.dpTodayButtonTD {  }
+	.dpDayTD { BORDER-RIGHT: #cddcf2 1px solid ; BORDER-TOP: #cddcf2 1px solid ; BORDER-LEFT: #cddcf2 1px solid; COLOR: #ffffff; BORDER-BOTTOM: #cddcf2 1px solid; BACKGROUND-COLOR:#96b4e0 ; }
+	.dpTitleText { FONT-WEIGHT: normal; FONT-SIZE: 11px; COLOR: #ffffff }
+	.dpDayHighlight { FONT-WEIGHT: bold; COLOR: #000000;}
+	.dpButton { PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: normal; FONT-SIZE: 10px; BACKGROUND:#d1dcf0 ; PADDING-BOTTOM: 0px; COLOR: #000000; PADDING-TOP: 0px; FONT-FAMILY: Tahoma, Arial, Helvetica, sans-serif; }
+	.dpTodayButton { FONT-WEIGHT: normal; FONT-SIZE: 10px; BACKGROUND:#d1dcf0; COLOR: #000000; FONT-FAMILY: Tahoma, Arial, Helvetica, sans-serif }
+	</STYLE>
