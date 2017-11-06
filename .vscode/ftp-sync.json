@@ -1,8 +1,5 @@
 {
-    "remotePath": "./moj-online",
-    "host": "onlinedesigners.ir",
-    "username": "moj-online",
-    "password": "Moj@0123",
+   
     "port": 21,
     "secure": false,
     "protocol": "ftp",
